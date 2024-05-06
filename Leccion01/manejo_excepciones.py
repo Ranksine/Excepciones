@@ -6,7 +6,7 @@ try:
     a = int(input('Primer número: '))
     b = int(input('Segundo número: '))
     if a == b:
-        # raise se encarga de arrojar excepciones, ya sean personalizadas y predefinidas, seria como un throw
+        # raise se encarga de arrojar excepciones, ya sean personalizadas y predefinidas, seria como un throw en java
         raise NumerosIdenticosException('números idénticos')
     resultado = a/b
 except ZeroDivisionError as e:
